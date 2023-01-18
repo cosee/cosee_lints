@@ -1,0 +1,8 @@
+include: package:cosee_lints/core.yaml
+
+linter:
+  rules:
+    - diagnostic_describe_all_properties
+    - package_api_docs
+    - public_member_api_docs
+    - slash_for_doc_comments

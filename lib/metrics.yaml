@@ -21,7 +21,6 @@ dart_code_metrics:
     - avoid-non-ascii-symbols
     - avoid-non-null-assertion
     - avoid-redundant-async
-    - avoid-top-level-members-in-tests
     - avoid-unnecessary-conditionals
     - avoid-unnecessary-type-assertions
     - avoid-unnecessary-type-casts
@@ -65,3 +64,4 @@ dart_code_metrics:
     - prefer-single-widget-per-file:
         ignore-private-widgets: true
     - prefer-using-list-view
+    - use-setstate-synchronously

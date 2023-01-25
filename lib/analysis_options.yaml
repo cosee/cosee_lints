@@ -1,4 +1,4 @@
 ##
-# Lint rules and metrics for a casual project.
+# Lint rules for a casual project.
 ##
 include: package:cosee_lints/core.yaml

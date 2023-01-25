@@ -1,4 +1,4 @@
 ##
-# Lint rules and metrics for a package.
+# Lint rules for a package.
 ##
 include: package:cosee_lints/package.yaml

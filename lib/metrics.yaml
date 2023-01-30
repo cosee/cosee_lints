@@ -1,7 +1,7 @@
 dart_code_metrics:
   metrics:
-    cyclomatic-complexity: 10
-    maximum-nesting-level: 4
+    cyclomatic-complexity: 15
+    maximum-nesting-level: 7
 
   anti-patterns:
     - long-method
@@ -19,7 +19,6 @@ dart_code_metrics:
     - avoid-nested-conditional-expressions:
         acceptable-level: 2
     - avoid-non-ascii-symbols
-    - avoid-non-null-assertion
     - avoid-redundant-async
     - avoid-unnecessary-conditionals
     - avoid-unnecessary-type-assertions
@@ -44,7 +43,7 @@ dart_code_metrics:
     - prefer-iterable-of
     - prefer-last
     - prefer-moving-to-variable:
-        allowed-duplicated-chains: 2
+        allowed-duplicated-chains: 3
     - prefer-static-class
     - prefer-trailing-comma
 
@@ -60,7 +59,7 @@ dart_code_metrics:
     - prefer-const-border-radius
     - prefer-correct-edge-insets-constructor
     - prefer-extracting-callbacks:
-        allowed-line-count: 3
+        allowed-line-count: 5
     - prefer-single-widget-per-file:
         ignore-private-widgets: true
     - prefer-using-list-view

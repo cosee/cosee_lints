@@ -1,3 +1,7 @@
+## 0.1.3
+
+* Exclude test folder for [prefer-static-class][prefer-static-class-link]
+
 ## 0.1.2
 
 * Remove [avoid-wrapping-in-padding][avoid-wrapping-in-padding-link]
@@ -41,3 +45,5 @@
 [prefer-moving-to-variable-link]: https://dartcodemetrics.dev/docs/rules/common/prefer-moving-to-variable
 
 [avoid-wrapping-in-padding-link]: https://dcm.dev/docs/individuals/rules/flutter/avoid-wrapping-in-padding
+
+[prefer-static-class-link]: https://dartcodemetrics.dev/docs/rules/common/prefer-static-class

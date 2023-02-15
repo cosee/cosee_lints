@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Remove [avoid-wrapping-in-padding][avoid-wrapping-in-padding-link]
+
 ## 0.1.1
 
 * Remove [`prefer_mixin`][prefer_mixin_link]
@@ -35,3 +39,5 @@
 [prefer-extracting-callbacks-link]: https://dartcodemetrics.dev/docs/rules/flutter/prefer-extracting-callbacks
 
 [prefer-moving-to-variable-link]: https://dartcodemetrics.dev/docs/rules/common/prefer-moving-to-variable
+
+[avoid-wrapping-in-padding-link]: https://dcm.dev/docs/individuals/rules/flutter/avoid-wrapping-in-padding

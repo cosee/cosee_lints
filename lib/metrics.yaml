@@ -54,7 +54,6 @@ dart_code_metrics:
     - avoid-shrink-wrap-in-lists
     - avoid-unnecessary-setstate
     - avoid-expanded-as-spacer
-    - avoid-wrapping-in-padding
     - consistent-update-render-object
     - prefer-const-border-radius
     - prefer-correct-edge-insets-constructor

@@ -1,3 +1,9 @@
+## 0.1.4
+
+* Exclude integration_test folder for [prefer-static-class][prefer-static-class-link]
+* Exclude test and integration_test folder
+  for [prefer-moving-to-variable][prefer-moving-to-variable-link]
+
 ## 0.1.3
 
 * Exclude test folder for [prefer-static-class][prefer-static-class-link]
@@ -47,3 +53,5 @@
 [avoid-wrapping-in-padding-link]: https://dcm.dev/docs/individuals/rules/flutter/avoid-wrapping-in-padding
 
 [prefer-static-class-link]: https://dartcodemetrics.dev/docs/rules/common/prefer-static-class
+
+[prefer-moving-to-variable-link]: https://dcm.dev/docs/individuals/rules/common/prefer-moving-to-variable

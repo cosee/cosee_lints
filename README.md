@@ -22,7 +22,7 @@ To install the package, add the following to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  cosee_lints: ^0.1.0
+  cosee_lints: ^0.2.0
 ```
 
 Then, add an include in `analysis_options.yaml`.<br>
@@ -62,15 +62,11 @@ The Dart Code Metrics can be run using the following command:
 
 ```sh
 dart run dart_code_metrics:metrics analyze lib
-
-# or for Flutter
-flutter pub run dart_code_metrics:metrics analyze lib
 ```
 
 [cosee]: https://www2.cosee.biz/
 
 [dart_code_metrics]: https://dartcodemetrics.dev/
-
 
 [pub_badge]: https://img.shields.io/pub/v/cosee_lints.svg
 

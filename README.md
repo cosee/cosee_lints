@@ -2,8 +2,8 @@
 
 <a href="https://www2.cosee.biz/">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://www2.cosee.biz/static/media/coseeLogoDark.4db59c01ddca8e9b2481.png">
-      <img src="https://www2.cosee.biz/static/media/coseeLogoLight.f5c13d3df599ab20306b.png" height="100" alt="cosee GmbH" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.cosee.biz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcoseeLogoDark.aafdc315.png&w=1920&q=75">
+      <img src="https://www.cosee.biz/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FcoseeLogoLight.de669ba8.png&w=1920&q=75" height="100" alt="cosee GmbH" />
     </picture>
 </a>
 <br>

@@ -1,3 +1,6 @@
+## 0.3.0
+* Remove malfunctioning rule [`no_default_cases`](https://dart.dev/tools/linter-rules/no_default_cases)
+
 ## 0.2.0
 
 * Upgrade to Dart 3

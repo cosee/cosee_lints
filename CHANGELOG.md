@@ -1,4 +1,16 @@
+## 0.4.0
+
+* Remove deprecated rules
+  * [`iterable_contains_unrelated_type`](https://dart.dev/tools/linter-rules/iterable_contains_unrelated_type)
+  * [`list_remove_unrelated_type`](https://dart.dev/tools/linter-rules/list_remove_unrelated_type)
+* Add new [core](./lib/core.yaml) rules
+  * [`matching_super_parameters`](https://dart.dev/tools/linter-rules/matching_super_parameters)
+  * [`no_literal_bool_comparisons`](https://dart.dev/tools/linter-rules/no_literal_bool_comparisons)
+  * [`no_self_assignments`](https://dart.dev/tools/linter-rules/no_self_assignments)
+  * [`no_wildcard_variable_uses`](https://dart.dev/tools/linter-rules/no_wildcard_variable_uses)
+
 ## 0.3.0
+
 * Remove malfunctioning rule [`no_default_cases`](https://dart.dev/tools/linter-rules/no_default_cases)
 
 ## 0.2.0

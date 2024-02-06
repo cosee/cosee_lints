@@ -56,13 +56,13 @@ dart_code_metrics:
         entries:
           - paths: ['lib\/domain(\/\w+)+\.dart']
             deny: ['^package:\w*\/ui(\/\w+)+\.dart$']
-            message: 'Do not import UI classes within domain layer.'
+            message: 'Do not import UI classes within domain layer'
           - paths: ['lib\/infrastructure(\/\w+)+\.dart']
             deny: ['^package:\w*\/ui(\/\w+)+\.dart$']
-            message: 'Do not import UI classes within infrastructure layer.'
+            message: 'Do not import UI classes within infrastructure layer'
           - paths: ['lib\/domain(\/\w+)+\.dart']
             deny: ['^package:\w*\/infrastructure(\/\w+)+\.dart$']
-            message: 'Do not import infrastructure layer classes within domain layer.'
+            message: 'Do not import infrastructure layer classes within domain layer'
 
     # Flutter
     - always-remove-listener

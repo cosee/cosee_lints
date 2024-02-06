@@ -1,3 +1,7 @@
+## 0.5.0
+
+* Add [`avoid-banned-imports`](https://dcm.dev/docs/rules/common/avoid-banned-imports/)
+
 ## 0.4.0
 
 * Remove deprecated rules

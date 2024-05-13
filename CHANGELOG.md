@@ -1,3 +1,7 @@
+## 0.6.0
+
+* Replace [dart_code_metrics](https://pub.dev/packages/dart_code_metrics) with [dart_code_linter](https://pub.dev/packages/dart_code_linter).
+
 ## 0.5.0
 
 * Add [`avoid-banned-imports`](https://dcm.dev/docs/rules/common/avoid-banned-imports/)

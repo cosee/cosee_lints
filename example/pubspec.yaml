@@ -9,4 +9,4 @@ environment:
 dev_dependencies:
   cosee_lints:
     path: ../
-  dart_code_metrics: ^5.7.6
+  dart_code_linter: ^1.1.3

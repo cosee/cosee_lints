@@ -22,7 +22,7 @@ To install the package, add the following to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  cosee_lints: ^0.4.0
+  cosee_lints: ^0.6.0
 ```
 
 Then, add an include in `analysis_options.yaml`.<br>
@@ -38,11 +38,11 @@ For a package:
 include: package:cosee_lints/analysis_options_package.yaml
 ```
 
-If you are using [dart_code_metrics][dart_code_metrics] you can extend our preset by adding the
+If you are using [dart_code_linter][dart_code_linter] you can extend our preset by adding the
 following line in `analysis_options.yaml`:
 
 ```yaml
-dart_code_metrics:
+dart_code_linter:
   extends:
     - package:cosee_lints/metrics.yaml
 ```
@@ -61,12 +61,12 @@ flutter analyze
 The Dart Code Metrics can be run using the following command:
 
 ```sh
-dart run dart_code_metrics:metrics analyze lib
+dart run dart_code_linter:metrics analyze lib
 ```
 
 [cosee]: https://www2.cosee.biz/
 
-[dart_code_metrics]: https://dartcodemetrics.dev/
+[dart_code_linter]: https://dcl.apps.bancolombia.com/
 
 [pub_badge]: https://img.shields.io/pub/v/cosee_lints.svg
 

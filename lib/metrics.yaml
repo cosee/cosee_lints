@@ -1,4 +1,4 @@
-dart_code_metrics:
+dart_code_linter:
   metrics:
     cyclomatic-complexity: 30
     maximum-nesting-level: 7
@@ -8,6 +8,17 @@ dart_code_metrics:
 
   rules:
     # Dart
+    - avoid-banned-imports:
+        entries:
+          - paths: [ 'lib\/domain(\/\w+)+\.dart' ]
+            deny: [ '^package:\w*\/ui(\/\w+)+\.dart$' ]
+            message: 'Do not import UI classes within domain layer'
+          - paths: [ 'lib\/infrastructure(\/\w+)+\.dart' ]
+            deny: [ '^package:\w*\/ui(\/\w+)+\.dart$' ]
+            message: 'Do not import UI classes within infrastructure layer'
+          - paths: [ 'lib\/domain(\/\w+)+\.dart' ]
+            deny: [ '^package:\w*\/infrastructure(\/\w+)+\.dart$' ]
+            message: 'Do not import infrastructure layer classes within domain layer'
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
     - avoid-double-slash-imports
@@ -52,17 +63,6 @@ dart_code_metrics:
           - test/**
           - integration_test/**
     - prefer-trailing-comma
-    - avoid-banned-imports:
-        entries:
-          - paths: ['lib\/domain(\/\w+)+\.dart']
-            deny: ['^package:\w*\/ui(\/\w+)+\.dart$']
-            message: 'Do not import UI classes within domain layer'
-          - paths: ['lib\/infrastructure(\/\w+)+\.dart']
-            deny: ['^package:\w*\/ui(\/\w+)+\.dart$']
-            message: 'Do not import UI classes within infrastructure layer'
-          - paths: ['lib\/domain(\/\w+)+\.dart']
-            deny: ['^package:\w*\/infrastructure(\/\w+)+\.dart$']
-            message: 'Do not import infrastructure layer classes within domain layer'
 
     # Flutter
     - always-remove-listener

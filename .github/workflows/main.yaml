@@ -16,7 +16,7 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/.tool-versions') }}
       - uses: asdf-vm/actions/install@v3
 
-      - name: Cache flutter dependencies
+      - name: Cache dart dependencies
         uses: actions/cache@v4
         id: flutter_cache
         with:
@@ -26,8 +26,8 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('**/pubspec.lock') }}
       - name: Install Dependencies
         run: |
-          flutter pub get
+          dart pub get
           echo $GITHUB_PATH:$HOME/.pub-cache/bin >> $GITHUB_PATH
-          flutter pub global activate pana
+          dart pub global activate pana
       - name: Verify Pub Score
         run: ./tool/verify_pub_score.sh

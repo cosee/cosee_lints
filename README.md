@@ -22,7 +22,7 @@ To install the package, add the following to your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  cosee_lints: ^0.6.0
+  cosee_lints: ^0.7.0
 ```
 
 Then, add an include in `analysis_options.yaml`.<br>

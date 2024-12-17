@@ -45,7 +45,6 @@ dart_code_linter:
     - no-equal-then-else
     - no-object-declaration
     - prefer-async-await
-    - prefer-commenting-analyzer-ignores
     - prefer-correct-test-file-name
     - prefer-correct-type-name
     - prefer-enums-by-name

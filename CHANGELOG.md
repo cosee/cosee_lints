@@ -1,20 +1,31 @@
+## 0.8.0
+
+* Bump Dart to 3.7.
+* Add new [core](./lib/core.yaml) rules
+  * [`strict_top_level_inference`](https://dart.dev/tools/linter-rules/strict_top_level_inference)
+  * [`unnecessary_underscores`](https://dart.dev/tools/linter-rules/unnecessary_underscores)
+* Remove deprecated rules
+  * [`avoid_null_checks_in_equality_operators`](https://dart.dev/tools/linter-rules/avoid_null_checks_in_equality_operators)
+  * [`package_api_docs`](https://dart.dev/tools/linter-rules/package_api_docs)
+  * [`unsafe_html`](https://dart.dev/tools/linter-rules/unsafe_html)
+
 ## 0.7.0
 
 * Add new [core](./lib/core.yaml) rules
-  * [`annotate_redeclares`](https://dart.dev/tools/linter-rules/annotate_redeclares).
-  * [`document_ignores`](https://dart.dev/tools/linter-rules/annotate_redeclares).
-  * [`invalid_runtime_check_with_js_interop_types`](https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types).
-  * [`use_truncating_division`](https://dart.dev/tools/linter-rules/use_truncating_division).
-  * [`unintended_html_in_doc_comment`](https://dart.dev/tools/linter-rules/unintended_html_in_doc_comment).
+  * [`annotate_redeclares`](https://dart.dev/tools/linter-rules/annotate_redeclares)
+  * [`document_ignores`](https://dart.dev/tools/linter-rules/annotate_redeclares)
+  * [`invalid_runtime_check_with_js_interop_types`](https://dart.dev/tools/linter-rules/invalid_runtime_check_with_js_interop_types)
+  * [`use_truncating_division`](https://dart.dev/tools/linter-rules/use_truncating_division)
+  * [`unintended_html_in_doc_comment`](https://dart.dev/tools/linter-rules/unintended_html_in_doc_comment)
 * Add new [package](./lib/package.yaml) rules
-  * [`missing_code_block_language_in_doc_comment`](https://dart.dev/tools/linter-rules/missing_code_block_language_in_doc_comment).
-  * [`unnecessary_library_name`](https://dart.dev/tools/linter-rules/unnecessary_library_name).
+  * [`missing_code_block_language_in_doc_comment`](https://dart.dev/tools/linter-rules/missing_code_block_language_in_doc_comment)
+  * [`unnecessary_library_name`](https://dart.dev/tools/linter-rules/unnecessary_library_name)
 * Removed unnecessary metrics
-  * [`prefer-commenting-analyzer-ignores`](https://dcl.apps.bancolombia.com/docs/rules/dart/prefer-commenting-analyzer-ignores).
+  * [`prefer-commenting-analyzer-ignores`](https://dcl.apps.bancolombia.com/docs/rules/dart/prefer-commenting-analyzer-ignores)
 
 ## 0.6.0
 
-* Replace [dart_code_metrics](https://pub.dev/packages/dart_code_metrics) with [dart_code_linter](https://pub.dev/packages/dart_code_linter).
+* Replace [dart_code_metrics](https://pub.dev/packages/dart_code_metrics) with [dart_code_linter](https://pub.dev/packages/dart_code_linter)
 
 ## 0.5.0
 

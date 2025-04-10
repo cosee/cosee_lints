@@ -31,6 +31,7 @@ dart_code_linter:
     - avoid-non-ascii-symbols
     - avoid-redundant-async
     - avoid-substring
+    - avoid-throw-in-catch-block
     - avoid-unnecessary-conditionals
     - avoid-unnecessary-type-assertions
     - avoid-unnecessary-type-casts
@@ -61,7 +62,6 @@ dart_code_linter:
         exclude:
           - test/**
           - integration_test/**
-    - prefer-trailing-comma
 
     # Flutter
     - always-remove-listener

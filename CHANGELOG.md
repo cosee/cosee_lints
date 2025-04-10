@@ -2,7 +2,7 @@
 
 * Add new metric [`avoid-throw-in-catch-block](https://dcl.apps.bancolombia.com/docs/rules/dart/avoid-throw-in-catch-block)
 * Remove obsolete metric [`prefer-trailing-comma`](https://dcl.apps.bancolombia.com/docs/rules/dart/prefer-trailing-comma/)
-* Remove rule metric [`require_trailing_commas`](https://dart.dev/tools/linter-rules/require_trailing_commas)
+* Remove obsolete rule [`require_trailing_commas`](https://dart.dev/tools/linter-rules/require_trailing_commas)
 
 ## 0.8.0
 

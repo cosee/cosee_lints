@@ -2,3 +2,6 @@
 # Lint rules for a casual project.
 ##
 include: package:cosee_lints/core.yaml
+
+formatter:
+  trailing_commas: preserve

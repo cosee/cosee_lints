@@ -62,6 +62,7 @@ dart_code_linter:
         exclude:
           - test/**
           - integration_test/**
+    - prefer-trailing-comma
 
     # Flutter
     - always-remove-listener

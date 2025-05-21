@@ -160,6 +160,7 @@ linter:
     - prefer_typing_uninitialized_variables
     - provide_deprecation_message
     - recursive_getters
+    - require_trailing_commas
     - sized_box_for_whitespace
     - sized_box_shrink_expand
     - sort_child_properties_last

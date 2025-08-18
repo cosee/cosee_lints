@@ -1,3 +1,8 @@
+## 0.11.0
+
+* Add new rule [`switch_on_type`](https://dart.dev/tools/linter-rules/switch_on_type)
+* Add new rule [`unnecessary_unawaited`](https://dart.dev/tools/linter-rules/unnecessary_unawaited)
+
 ## 0.10.1
 
 * Fix: Add missing comma rules.
@@ -11,7 +16,7 @@
 
 ## 0.9.0
 
-* Add new metric [`avoid-throw-in-catch-block](https://dcl.apps.bancolombia.com/docs/rules/dart/avoid-throw-in-catch-block)
+* Add new metric [`avoid-throw-in-catch-block`](https://dcl.apps.bancolombia.com/docs/rules/dart/avoid-throw-in-catch-block)
 * Remove obsolete metric [`prefer-trailing-comma`](https://dcl.apps.bancolombia.com/docs/rules/dart/prefer-trailing-comma/)
 * Remove obsolete rule [`require_trailing_commas`](https://dart.dev/tools/linter-rules/require_trailing_commas)
 

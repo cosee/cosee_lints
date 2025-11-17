@@ -1,3 +1,7 @@
+## 0.12.0
+
+* Add new rule [`remove_deprecations_in_breaking_versions`](https://dart.dev/tools/linter-rules/remove_deprecations_in_breaking_versions)
+
 ## 0.11.0
 
 * Add new rule [`switch_on_type`](https://dart.dev/tools/linter-rules/switch_on_type)

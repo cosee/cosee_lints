@@ -10,6 +10,7 @@ linter:
     - missing_code_block_language_in_doc_comment
     - package_prefixed_library_names
     - public_member_api_docs
+    - remove_deprecations_in_breaking_versions
     - slash_for_doc_comments
     - unnecessary_library_directive
     - unnecessary_library_name

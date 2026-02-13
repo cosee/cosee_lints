@@ -1,3 +1,8 @@
+## 0.13.0
+
+* Add new rule [`simplify_variable_pattern`](https://dart.dev/tools/linter-rules/simplify_variable_pattern)
+* Remove deprecated rule [`use_if_null_to_convert_nulls_to_bools`](https://dart.dev/tools/linter-rules/use_if_null_to_convert_nulls_to_bools)
+
 ## 0.12.0
 
 * Add new rule [`remove_deprecations_in_breaking_versions`](https://dart.dev/tools/linter-rules/remove_deprecations_in_breaking_versions)

@@ -5,26 +5,26 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "1dd467c7e56541bea70bbd35d537e3aa12dfba81f39e2a75bb6a61fc5595985b"
+      sha256: a49d6cf99e8d8e7a8e93668d09ced0bbdb954d0b4fccc2f5f9241c6b87fad95c
       url: "https://pub.dev"
     source: hosted
-    version: "97.0.0"
+    version: "99.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "041602214e3ec5a02ba85c08fe8e381aa25ac5367db17d03fbb6d22d851d4bba"
+      sha256: "663efa951fb8a45e06f491223a604c93820598f20e6a99c25617a1576065e8b7"
       url: "https://pub.dev"
     source: hosted
-    version: "11.0.0"
+    version: "12.1.0"
   analyzer_plugin:
     dependency: transitive
     description:
       name: analyzer_plugin
-      sha256: "06d68a8c9e7302fa44c45aba77d792b6926430a47e0cf82abf6b90436a70d9f4"
+      sha256: "0057a98d64d7bb872b0c87dff6e73d2c2d80c77156e7a03f127a26f8aa240649"
       url: "https://pub.dev"
     source: hosted
-    version: "0.14.5"
+    version: "0.14.8"
   ansicolor:
     dependency: transitive
     description:
@@ -100,10 +100,10 @@ packages:
     dependency: transitive
     description:
       name: dart_style
-      sha256: "29f7ecc274a86d32920b1d9cfc7502fa87220da41ec60b55f329559d5732e2b2"
+      sha256: a4c1ccfee44c7e75ed80484071a5c142a385345e658fd8bd7c4b5c97e7198f98
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.7"
+    version: "3.1.8"
   file:
     dependency: transitive
     description:

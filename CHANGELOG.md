@@ -1,3 +1,10 @@
+## 0.14.0
+
+* Add new [core](./lib/core.yaml) rules
+  * [`simple_directive_paths`](https://dart.dev/tools/linter-rules/simple_directive_paths)
+  * [`unnecessary_ignore`](https://dart.dev/tools/linter-rules/unnecessary_ignore)
+  * [`var_with_no_type_annotation`](https://dart.dev/tools/linter-rules/var_with_no_type_annotation)
+
 ## 0.13.0
 
 * Add new rule [`simplify_variable_pattern`](https://dart.dev/tools/linter-rules/simplify_variable_pattern)

@@ -162,6 +162,7 @@ linter:
     - provide_deprecation_message
     - recursive_getters
     - require_trailing_commas
+    - simple_directive_paths
     - simplify_variable_pattern
     - sized_box_for_whitespace
     - sized_box_shrink_expand
@@ -181,6 +182,7 @@ linter:
     - unnecessary_const
     - unnecessary_constructor_name
     - unnecessary_getters_setters
+    - unnecessary_ignore
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_new
@@ -215,6 +217,7 @@ linter:
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
     - use_truncating_division
+    - var_with_no_type_annotation
     - void_checks
 
     # Pub rules

@@ -1,0 +1,33 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.packages
+build/
+
+# Repository maintenance
+.github/
+.aiignore
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+mise.toml
+renovate.json
+tool/

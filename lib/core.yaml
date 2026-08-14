@@ -62,6 +62,7 @@ linter:
     - always_put_required_named_parameters_first
     - annotate_overrides
     - annotate_redeclares
+    - async_return_with_no_await
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
@@ -76,7 +77,6 @@ linter:
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
     - avoid_positional_boolean_parameters
-    - avoid_private_typedef_functions
     - avoid_redundant_argument_values
     - avoid_renaming_method_parameters
     - avoid_return_types_on_setters
@@ -101,6 +101,7 @@ linter:
     - directives_ordering
     - document_ignores
     - empty_catches
+    - empty_container_bodies
     - empty_constructor_bodies
     - eol_at_end_of_file
     - exhaustive_cases
@@ -108,6 +109,7 @@ linter:
     - invalid_runtime_check_with_js_interop_types
     - implementation_imports
     - implicit_call_tearoffs
+    - initialize_in_field_declaration
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
     - library_prefixes
@@ -123,7 +125,6 @@ linter:
     - noop_primitive_operations
     - null_check_on_nullable_type_parameter
     - null_closures
-    - one_member_abstracts
     - only_throw_errors
     - overridden_fields
     - parameter_assignments
@@ -176,10 +177,10 @@ linter:
     - type_literal_in_constant_pattern
     - unawaited_futures
     - unintended_html_in_doc_comment
-    - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
     - unnecessary_breaks
     - unnecessary_const
+    - unnecessary_const_in_enum_constructor
     - unnecessary_constructor_name
     - unnecessary_getters_setters
     - unnecessary_ignore
@@ -193,14 +194,17 @@ linter:
     - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_overrides
     - unnecessary_parenthesis
+    - unnecessary_primary_constructor_body
     - unnecessary_raw_strings
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
     - unnecessary_to_list_in_spreads
+    - unnecessary_type_name_in_constructor
     - unnecessary_unawaited
     - unnecessary_underscores
     - use_colored_box
+    - use_declaring_parameters
     - use_enums
     - use_full_hex_values_for_flutter_colors
     - use_function_type_syntax_for_parameters

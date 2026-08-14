@@ -1,3 +1,22 @@
+## 0.15.0
+
+* Bump Dart to 3.13.0
+* Add new [core](./lib/core.yaml) rules
+  * [`async_return_with_no_await`](https://dart.dev/tools/linter-rules/async_return_with_no_await)
+  * [`empty_container_bodies`](https://dart.dev/tools/linter-rules/empty_container_bodies)
+  * [`initialize_in_field_declaration`](https://dart.dev/tools/linter-rules/initialize_in_field_declaration)
+  * [`unnecessary_const_in_enum_constructor`](https://dart.dev/tools/linter-rules/unnecessary_const_in_enum_constructor)
+  * [`unnecessary_primary_constructor_body`](https://dart.dev/tools/linter-rules/unnecessary_primary_constructor_body)
+  * [`unnecessary_type_name_in_constructor`](https://dart.dev/tools/linter-rules/unnecessary_type_name_in_constructor)
+  * [`use_declaring_parameters`](https://dart.dev/tools/linter-rules/use_declaring_parameters)
+* Add new metrics
+  * [`avoid-non-exhaustive-switch-on-sealed-classes`](https://dcl.apps.bancolombia.com/docs/rules/dart/avoid-non-exhaustive-switch-on-sealed-classes)
+  * [`prefer-dot-shorthands`](https://dcl.apps.bancolombia.com/docs/rules/dart/prefer-dot-shorthands)
+* Remove deprecated [core](./lib/core.yaml) rules
+  * [`avoid_private_typedef_functions`](https://dart.dev/tools/linter-rules/avoid_private_typedef_functions)
+  * [`one_member_abstracts`](https://dart.dev/tools/linter-rules/one_member_abstracts)
+  * [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return)
+
 ## 0.14.0
 
 * Add new [core](./lib/core.yaml) rules

@@ -5,34 +5,34 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: "9a3386eea899815698dd55995277cf7cb8572ee52b399a6edfb7ae2b50e5fc19"
+      sha256: fdcd9f70f9eb80df3bc5ed0fa67280df2595fd481948df8a9ab082e6a40ad04b
       url: "https://pub.dev"
     source: hosted
-    version: "105.0.0"
+    version: "108.0.0"
   analysis_server_plugin:
     dependency: transitive
     description:
       name: analysis_server_plugin
-      sha256: "0ba6a701c8d926f548a736ac3da8536f63f75fd49ad803f9dfcd091b869ef753"
+      sha256: "3460f040e1f77647fcd82db9bd3bb117de04d04a3d67c39ad361794331147a4e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.20"
+    version: "0.3.23"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: "62993bed6eadbe9596c5c20d5c167e7bc563c5fe266657a04ddeb93bdb84f4c9"
+      sha256: a51c769bff3b6dfbe9d60199b8606d808290702a296bef0c26a4ca391d414e46
       url: "https://pub.dev"
     source: hosted
-    version: "14.1.0"
+    version: "14.4.0"
   analyzer_plugin:
     dependency: transitive
     description:
       name: analyzer_plugin
-      sha256: "8c988c96836e59db019930c603dd1493797a7aaf97ba71469ea13724602be4dd"
+      sha256: "9a3518eb84e8e26665874d9867534961d855493e9c5eb0eb55cbd46edd995529"
       url: "https://pub.dev"
     source: hosted
-    version: "0.14.14"
+    version: "0.14.17"
   ansicolor:
     dependency: transitive
     description:
@@ -204,10 +204,10 @@ packages:
     dependency: transitive
     description:
       name: platform
-      sha256: "5d6b1b0036a5f331ebc77c850ebc8506cbc1e9416c27e59b439f917a902a4984"
+      sha256: a36d119c13416516a7b5913fbe8af8531e11633d784c550b2125f76c758524ec
       url: "https://pub.dev"
     source: hosted
-    version: "3.1.6"
+    version: "3.2.0"
   process:
     dependency: transitive
     description:
